@@ -1,0 +1,576 @@
+/* primeiro background */
+.background-main figure img{
+    width: 100%;
+    height: 700px;
+    top: 0;
+    max-height: 700px;
+    object-fit: cover;
+}
+
+/* primeira seção com imagem e texto */
+.first-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 73px;
+    position: relative;
+}
+
+.first-section h2{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.first-section h1{
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 28px;
+}
+
+.first-section figure{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.first-section figcaption{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    max-width: 766px;
+    margin-bottom: 73px;
+
+}
+
+/* primeiros cards */
+.first-content-card{
+    margin-top: 179px;
+    margin-bottom: 62px;
+    width: 100%;
+}
+
+.content-card-container{
+    max-width: 1092px;
+    width: 100%;
+    height: 350px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 21px;
+    position: relative;
+    margin: auto;
+}
+
+.first-card figure,.second-card figure,.three-card figure{
+    width: 100%;
+    max-width: 350px;
+    height: 287.68px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.23);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px auto;
+    padding: 27px;
+}
+
+.first-card figcaption,.second-card figcaption,.three-card figcaption{
+    max-width: 299px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+/* cards com imagem de macbook */
+.cards-macbook{
+    width: 100%;
+    height: 530px;
+    background: #E0E0E0;
+}
+
+.cards-macbook-container{
+    max-width: 1776px;
+    width: 100%;
+    height: 530px;
+    display: grid;
+    grid-template-areas:
+        "A B C";
+    justify-content: center;
+    align-items: center;
+    gap: 39px;
+    position: relative;
+    margin: auto;
+    top: 62px;
+}
+
+.first-card-macbook figure img,.second-card-macbook figure img,.third-card-macbook figure img{
+    max-width: 566px;
+    width: 100%;
+}
+
+/* área final com 4 cards */
+.bottom-cards{
+    margin-top: 191px;
+    margin-bottom: 108px;
+    width: 100%;
+}
+
+.bottom-cards-container{
+    max-width: 1776px;
+    width: 100%;
+    height: 332px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    position: relative;
+    margin: auto;
+}
+
+.first-bottom-card figure,.second-bottom-card figure,.three-bottom-card figure,.four-bottom-card figure{
+    width: 100%;
+    max-width: 432px;
+    height: 332px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px auto;
+    padding: 27px;
+}
+
+.first-bottom-card figcaption,.second-bottom-card figcaption,.three-bottom-card figcaption,.four-bottom-card figcaption{
+    max-width: 367px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+/* seção final com título, texto e imagem */
+.banner-final{
+    width: 100%;
+    padding: 36px 7% 116px 7%;
+}
+
+.banner-final figure{
+    max-width: 1360px;
+    height: 484px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin: auto;
+}
+
+.banner-final figure img{
+    width: 100%;
+    height: 276px;
+    object-fit: cover;
+    object-position: 25% 55%;
+}
+
+.banner-final figure .banner-final-text h3{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #000000;
+}
+
+.banner-final .banner-final-text figcaption{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 50px;
+    max-width: 550px;
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (max-width: 1025px){
+    .background-main figure img{
+        height: 100%;
+        min-height: 598px;
+    }
+
+    .first-section{
+        padding: 0 28px;
+    }
+
+    .first-section h2{
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .first-section h1{
+        font-size: 28px;
+        line-height: 34px;
+        text-align: center;
+    }
+
+    .first-section figure img{
+        width: 100%;
+        max-width: 239px;
+    }
+
+    .first-section figcaption{
+        text-align: center;
+    }
+
+    .first-content-card{
+        margin-top: 91px;
+        width: 100%;
+        max-width: 1092px;
+        height: 966px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content-card-container{
+        width: 100%;
+        height: 894px;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: space-around;
+        margin: 0 23px;
+        gap: 24px;
+    }
+
+    .cards-macbook{
+        grid-gap: 10px;
+        justify-items: center;
+        align-items: center;
+        width: 100%;
+        height: 574px;
+        margin: auto;
+        position: relative;
+    }
+
+    .cards-macbook-container{
+        display: grid;
+        grid-auto-flow: column;
+        grid-template-areas:
+            "A B"
+            "C C";
+        column-gap: 14px;
+        row-gap: 24px;
+        justify-items: center;
+        align-items: center;
+        margin: auto;
+        position: relative;
+        padding: 0 23px;
+    }
+
+    .first-card-macbook{
+        grid-area: A;
+        max-width: 177px;
+        height: auto;
+    }
+
+    .first-card-macbook figure img{
+        width: 100%;
+    }
+
+    .second-card-macbook {
+        grid-area: B;
+        max-width: 177px;
+        height: auto;
+    }
+
+    .second-card-macbook figure img{
+        width: 100%;
+    }
+
+    .third-card-macbook{
+        grid-area: C;
+        max-width: 368px;
+        height: auto;
+    }
+
+    .third-card-macbook figure img{
+        width: 100%;
+    }
+
+    .bottom-cards{
+        margin-top: 80px;
+        width: 100%;
+        max-height: 1376px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bottom-cards-container{
+        width: 100%;
+        height: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0 23px;
+        gap: 16px;
+    }
+
+    .first-bottom-card figure img,.second-bottom-card figure img,.three-bottom-card figure img,.four-bottom-card figure img{
+        margin-bottom: 15px;
+    }
+
+    .banner-final {
+        width: 100%;
+        padding: 0;
+    }
+
+    .banner-final figure{
+        max-width: 414px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        position: relative;
+        margin: auto;
+    }
+
+    .banner-final figure img{
+        width: 100%;
+        height: auto;
+        margin-bottom: 50px;
+    }
+
+    .banner-final-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .banner-final figure .banner-final-text h3{
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        margin-bottom: 9px;
+    }
+
+    .banner-final .banner-final-text figcaption{
+        margin-bottom: 87px;
+        max-width: 350px;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 281px){
+    .cards-macbook {
+        height: auto;
+    }
+
+    .cards-macbook-container{
+        height: auto;
+        top: 32px;
+    }
+
+    .first-bottom-card figure,.second-bottom-card figure,.three-bottom-card figure, .four-bottom-card figure{
+        height: auto;
+    }
+
+    .bottom-cards{
+        max-height: 1640px;
+    }
+
+    .banner-final .banner-final-text figcaption{
+        margin-bottom: 87px;
+        padding: 0 32px 0 32px;
+    }
+}
+
+@media screen and (min-width: 2500px){
+    .background-main figure img {  
+        height: 70%;    
+        max-height: 700px;
+    }
+
+    .first-section h2{
+        font-size: 64px;
+        line-height: 78px;
+    }
+
+    .first-section h1{
+        font-size: 96px;
+        line-height: 116px;
+    }
+
+    .first-section figcaption{
+        font-size: 32px;
+        line-height: 48px;
+        max-width: 55%;
+    }
+
+    .first-section figure img{
+        width: 16%;
+    }
+
+    .first-content-card {
+        margin-top: 358px;
+        margin-bottom: 124px;
+    }
+
+    .content-card-container{
+        width: 100%;
+        max-width: 60%;
+        height: 574px;
+        display: flex;
+        justify-content: center;
+        gap: 42px;
+    }
+
+    .first-card figure,.second-card figure,.three-card figure{
+        width: 650px;
+        height: 574px;
+        max-width: none;
+    }
+
+    .first-card figure img,.second-card figure img,.three-card figure img{
+        width: 100%;
+        max-width: 25%;
+    }
+
+    .first-card figcaption,.second-card figcaption,.three-card figcaption{
+        max-width: 90%;
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    .cards-macbook{
+        width: 100%;
+        height: 100%;
+    }
+
+    .cards-macbook-container{
+        max-width: none;
+        width: 100%;
+        height: 100%;
+        top: 124px;
+        padding: 0 72px;
+    }
+   
+    .first-card-macbook figure img,.second-card-macbook figure img,.third-card-macbook figure img{
+        max-width: 754px;
+        height: 706px;
+        width: 100%;
+        
+    }
+    
+    .bottom-cards{
+        margin-top: 382px;
+        margin-bottom: 216px;
+        max-width: none;
+        width: 100%;
+        height: 664px;
+        padding: 0 72px;
+    }
+    
+    .bottom-cards-container{
+        max-width: none;
+        width: 100%;
+        height: 664px;
+        gap: 32px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        margin: auto;   
+    }
+    
+    .first-bottom-card ,.second-bottom-card ,.three-bottom-card ,.four-bottom-card{
+        width: 100%;
+        max-width: 840px;
+        height: 664px;
+      
+    }
+
+    .first-bottom-card figure,.second-bottom-card figure,.three-bottom-card figure,.four-bottom-card figure{
+        width: 100%;
+        max-width: 840px;
+        height: 664px;
+        padding: 27px;
+    }
+
+    .first-bottom-card figure img,.second-bottom-card figure img,.three-bottom-card figure img,.four-bottom-card figure img{
+        width: 100%;
+        max-width: 25%;
+    }
+    
+    .first-bottom-card figcaption,.second-bottom-card figcaption,.three-bottom-card figcaption,.four-bottom-card figcaption{
+        max-width: 734px;
+        width: 100%;
+        font-size: 32px;
+        line-height: 48px;
+    }
+    
+    .banner-final{
+        padding: 144px 14% 464px 14%;
+    }
+    
+    .banner-final figure{
+        max-width: 2720px;
+        height: 484px;
+    }
+    
+    .banner-final figure img{
+        width: 100%;
+        height: 484px;
+    }
+    
+    .banner-final figure .banner-final-text h3{
+        font-size: 64px;
+        line-height: 78px;
+    }
+    
+    .banner-final .banner-final-text figcaption{
+        font-size: 32px;
+        line-height: 48px;
+        margin-bottom: 100px;
+        max-width: 1100px;
+    }
+}
+
+@media screen and (min-width: 3500px){
+    .background-main figure img{  
+        height: 100%;    
+        max-height: 1400px;
+    }
+
+    .first-card-macbook figure img, .second-card-macbook figure img, .third-card-macbook figure img{
+        max-width: 1132px;
+        height: 1060px;
+        width: 100%;      
+    }
+   
+}
